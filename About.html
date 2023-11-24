@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width" , initial-scale="1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,400;1,500;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/love logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Myself</a></li>
+                    <li><a href="">Future</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About ME</h1>
+  </section>
+
+<!------- about me content ------->
+
+<section class="about-me">
+    <div class="row">
+        <div class="about-col">
+            <h1>Love me for What I am, Not for Your Satisfaction</h1>
+            <p>I'm Gracelyn, you can call me 'grace' or 'duday'. I am a good person to someone who is kind to me. I am a good friend to all those in need, but I am also a helper. I always like to be given time because otherwise I would have thought that I would not be worthy and loved. That's how overthinker a gracelyn is. My fat is not called shame because it is an asset to be better known and liked by others. I'm not rude but I'm not nice either, my behavior depends on the person I meet.</p>
+            <p>My favorite thing to do is to teach in the field of mathematics but hndi I see myself as a teacher. Because of this, I wanted to enter the field of accountancy so I am here in this course although I am not sure I will succeed here but, I am sure that I will finish it as best I can. I'm Gracelyn, who believes in the term "my weight and curves" don't prevent me from being called a princess.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/fat.jpg">
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------- footer ------->
+
+<section class="footer">
+    <h4>About ME</h4>
+    <p>Enjoy reading simple information about my life. This website is for myself only.<br>It can provide lots of details but I specify the most Important thing for you to know me better</p>
+    <div class="social-links">
+        <a href="">FACEBOOK</a>
+        <a href="">MESSENGER</a>
+        <a href="">INSTAGRAM</a>
+    </div>
+    <p>Made by Gracelyn A. Tumbaga</p>
+</section>
+
+
+
+
+
+
+
+ <!-------JavaScript for Toggle Menu------->
+<script>
+    
+   var navlinks = document.getElementById(navlinks)
+
+   function showmenu(){
+    navlinks.style.right = "0";
+   }
+   function hidemenu(){
+    navlinks.style.right = "-200px";
+   }
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
